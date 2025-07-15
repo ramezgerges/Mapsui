@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Samples.Uno.WinUI", "Samples\Mapsui.Samples.Uno.WinUI\Mapsui.Samples.Uno.WinUI\Mapsui.Samples.Uno.WinUI.csproj", "{E44AFC0C-85F4-164B-E583-460D81660F58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABBDE291-EFD5-45C8-B761-FB60F90BE86F} = {ABBDE291-EFD5-45C8-B761-FB60F90BE86F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.UI.Uno.WinUI", "Mapsui.UI.Uno.WinUI\Mapsui.UI.Uno.WinUI.csproj", "{4F45D752-251A-40BE-BD0F-6E73B73186AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Rendering.Skia", "Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj", "{ABBDE291-EFD5-45C8-B761-FB60F90BE86F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mapsui.UI.Shared", "Mapsui.UI.Shared\Mapsui.UI.Shared.shproj", "{239F2B0D-13CB-4BCF-83BF-F52D696A47B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Samples.Common", "Samples\Mapsui.Samples.Common\Mapsui.Samples.Common.csproj", "{8F383243-A229-4F6C-8D9C-E74147C009EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui", "Mapsui\Mapsui.csproj", "{725287DD-F922-8493-79D1-77CFF12881E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Nts", "Mapsui.Nts\Mapsui.Nts.csproj", "{8745EEF2-1286-B7EA-DC6E-85A69F4F8B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.ArcGIS", "Mapsui.ArcGIS\Mapsui.ArcGIS.csproj", "{5DAE865F-BCB7-76D4-FAF9-3A5D096F0946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Extensions", "Mapsui.Extensions\Mapsui.Extensions.csproj", "{07BFADAE-BBFC-1B07-F263-FF752F60FED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Tiling", "Mapsui.Tiling\Mapsui.Tiling.csproj", "{6FF94D54-500B-51DF-3BE8-4F57E81EAEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.UI.Maui", "Mapsui.UI.Maui\Mapsui.UI.Maui.csproj", "{1EC6B72E-589D-351C-AA55-216B1FB95B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.SourceGenerator", "SourceGenerators\Mapsui.SourceGenerator\Mapsui.SourceGenerator.csproj", "{B2CB9835-5CF8-3268-4D8E-EDD7D5AABA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Sample.SourceGenerator", "SourceGenerators\Mapsui.Sample.SourceGenerator\Mapsui.Sample.SourceGenerator.csproj", "{A7912272-F0EC-E50F-9645-F190C9287DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapsui.Tests.Common", "Tests\Mapsui.Tests.Common\Mapsui.Tests.Common.csproj", "{618329EE-71A2-B995-0A1B-1530A3712B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E44AFC0C-85F4-164B-E583-460D81660F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44AFC0C-85F4-164B-E583-460D81660F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44AFC0C-85F4-164B-E583-460D81660F58}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E44AFC0C-85F4-164B-E583-460D81660F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44AFC0C-85F4-164B-E583-460D81660F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F45D752-251A-40BE-BD0F-6E73B73186AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F45D752-251A-40BE-BD0F-6E73B73186AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F45D752-251A-40BE-BD0F-6E73B73186AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F45D752-251A-40BE-BD0F-6E73B73186AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBDE291-EFD5-45C8-B761-FB60F90BE86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBDE291-EFD5-45C8-B761-FB60F90BE86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBDE291-EFD5-45C8-B761-FB60F90BE86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBDE291-EFD5-45C8-B761-FB60F90BE86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F383243-A229-4F6C-8D9C-E74147C009EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F383243-A229-4F6C-8D9C-E74147C009EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F383243-A229-4F6C-8D9C-E74147C009EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F383243-A229-4F6C-8D9C-E74147C009EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725287DD-F922-8493-79D1-77CFF12881E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725287DD-F922-8493-79D1-77CFF12881E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725287DD-F922-8493-79D1-77CFF12881E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725287DD-F922-8493-79D1-77CFF12881E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8745EEF2-1286-B7EA-DC6E-85A69F4F8B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8745EEF2-1286-B7EA-DC6E-85A69F4F8B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8745EEF2-1286-B7EA-DC6E-85A69F4F8B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8745EEF2-1286-B7EA-DC6E-85A69F4F8B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAE865F-BCB7-76D4-FAF9-3A5D096F0946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAE865F-BCB7-76D4-FAF9-3A5D096F0946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAE865F-BCB7-76D4-FAF9-3A5D096F0946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAE865F-BCB7-76D4-FAF9-3A5D096F0946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BFADAE-BBFC-1B07-F263-FF752F60FED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BFADAE-BBFC-1B07-F263-FF752F60FED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BFADAE-BBFC-1B07-F263-FF752F60FED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BFADAE-BBFC-1B07-F263-FF752F60FED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF94D54-500B-51DF-3BE8-4F57E81EAEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF94D54-500B-51DF-3BE8-4F57E81EAEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF94D54-500B-51DF-3BE8-4F57E81EAEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF94D54-500B-51DF-3BE8-4F57E81EAEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC6B72E-589D-351C-AA55-216B1FB95B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC6B72E-589D-351C-AA55-216B1FB95B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC6B72E-589D-351C-AA55-216B1FB95B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC6B72E-589D-351C-AA55-216B1FB95B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CB9835-5CF8-3268-4D8E-EDD7D5AABA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CB9835-5CF8-3268-4D8E-EDD7D5AABA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CB9835-5CF8-3268-4D8E-EDD7D5AABA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CB9835-5CF8-3268-4D8E-EDD7D5AABA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7912272-F0EC-E50F-9645-F190C9287DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7912272-F0EC-E50F-9645-F190C9287DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7912272-F0EC-E50F-9645-F190C9287DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7912272-F0EC-E50F-9645-F190C9287DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618329EE-71A2-B995-0A1B-1530A3712B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618329EE-71A2-B995-0A1B-1530A3712B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618329EE-71A2-B995-0A1B-1530A3712B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618329EE-71A2-B995-0A1B-1530A3712B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D13B955-9B19-4CEF-B6DA-B97F8E76AE10}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Mapsui.UI.MapView\Mapsui.UI.MapView.projitems*{1ec6b72e-589d-351c-aa55-216b1fb95b61}*SharedItemsImports = 5
+		Mapsui.UI.Shared\Mapsui.UI.Shared.projitems*{1ec6b72e-589d-351c-aa55-216b1fb95b61}*SharedItemsImports = 5
+		Mapsui.UI.Shared\Mapsui.UI.Shared.projitems*{239f2b0d-13cb-4bcf-83bf-f52d696a47b7}*SharedItemsImports = 13
+		Mapsui.UI.Shared\Mapsui.UI.Shared.projitems*{4f45d752-251a-40be-bd0f-6e73b73186ad}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
